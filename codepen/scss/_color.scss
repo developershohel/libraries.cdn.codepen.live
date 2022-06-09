@@ -5456,3 +5456,26 @@
 .border-rose-900 {
   border-color: var(--rose-900);
 }
+
+.shadow-sm {
+  box-shadow: var(--shadow-sm);
+}
+.shadow {
+  box-shadow: var(--shadow);
+}
+.shadow-md {
+  box-shadow: var(--shadow-md);
+}
+.shadow-lg {
+  box-shadow: var(--shadow-lg);
+}
+.shadow-xl {
+  box-shadow: var(--shadow-xl);
+}
+
+.shadow-inner {
+  box-shadow: var(--shadow-inner);
+}
+.shadow-none {
+  box-shadow: var(--shadow-none);
+}
