@@ -26,7 +26,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: var(--gray-800);
   text-align: left;
   background-color: #fff;
 }
@@ -121,14 +121,15 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: var(--blue-500);
   text-decoration: none;
   background-color: transparent;
+  transition: all 0.2s ease-in-out;
 }
 
 a:hover {
-  color: #0056b3;
-  text-decoration: underline;
+  color: var(--blue-600);
+  text-decoration: none;
 }
 
 a:not([href]) {
@@ -374,7 +375,7 @@ mark {
 
 code {
   font-size: 87.5%;
-  color: #e83e8c;
+  color: var(--pink-500);
   word-wrap: break-word;
 }
 
@@ -386,7 +387,7 @@ kbd {
   padding: 0.2rem 0.4rem;
   font-size: 87.5%;
   color: #fff;
-  background-color: #212529;
+  background-color: var(--gray-800);
   border-radius: 0.2rem;
 }
 
@@ -399,7 +400,7 @@ kbd kbd {
 pre {
   display: block;
   font-size: 87.5%;
-  color: #212529;
+  color: var(--gray-800);
 }
 
 pre code {
