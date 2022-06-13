@@ -20,8 +20,28 @@ Use it to make something cool, have fun, and share what you've learned
 with others: em
 */
 :root {
+  --text-primary: rgb(255 255 255);
+  --text-secondary: rgb(17 24 39);
+  --primary: rgb(59 130 246);
+  --secondary: rgb(107 114 128);
+  --success: rgb(34 197 94);
+  --info: rgb(6 182 212);
+  --warning: rgb(253 224 71);
+  --danger: rgb(239 68 68);
+  --light: rgb(248, 249, 250);
+  --dark: #343a40;
+  --hover-primary: rgb(29 78 216);
+  --hover-secondary: rgb(55 65 81);
+  --hover-success: rgb(21 128 61);
+  --hover-info: rgb(14 116 144);
+  --hover-warning: rgb(234 179 8);
+  --hover-danger: rgb(185 28 28);
+  --hover-light: #f8f9fa;
+  --hover-dark: #343a40;
   --black: rgb(0 0 0);
   --white: rgb(255 255 255);
+  --gray: rgb(100 116 139);
+  --gray-dark: rgb(17 24 39);
   --slate-50: rgb(248 250 252);
   --slate-100: rgb(241 245 249);
   --slate-200: rgb(226 232 240);
@@ -202,16 +222,16 @@ with others: em
   --rose-700: rgb(190 18 60);
   --rose-800: rgb(159 18 57);
   --rose-900: rgb(136 19 55);
-  --shadow:0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
-  --shadow-sm:0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -2px rgba(0, 0, 0, 0.1);
-  --shadow-lg:0 10px 15px -3px rgba(0, 0, 0, 0.1),
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -4px rgba(0, 0, 0, 0.1);
-  --shadow-xl:0 20px 25px -5px rgba(0, 0, 0, 0.1),
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
     0 8px 10px -6px rgba(0, 0, 0, 0.1);
-  --shadow-inner:inset 0 2px 4px 0 rgba(0, 0, 0, 0.05);
-  --shadow-none:0 0 #0000;
+  --shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  --shadow-none: 0 0 #0000;
 }
 
 *,

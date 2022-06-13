@@ -26,9 +26,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: var(--gray-800);
+  color: var(--text-secondary);
   text-align: left;
-  background-color: #fff;
+  background-color: var(--bg-primary)
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -121,14 +121,14 @@ sup {
 }
 
 a {
-  color: var(--blue-500);
+  color: var(--link-primary);
   text-decoration: none;
   background-color: transparent;
   transition: all 0.2s ease-in-out;
 }
 
 a:hover {
-  color: var(--blue-600);
+  color: var(--link-hover-primary);
   text-decoration: none;
 }
 
@@ -177,7 +177,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c757d;
+  color: var(--slate-400);
   text-align: left;
   caption-side: bottom;
 }
@@ -369,7 +369,7 @@ small {
 
 mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
+  background-color: var(--light);
 }
 
 
@@ -386,7 +386,7 @@ a > code {
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 87.5%;
-  color: #fff;
+  color: var(--text-primary);
   background-color: var(--gray-800);
   border-radius: 0.2rem;
 }
@@ -400,7 +400,7 @@ kbd kbd {
 pre {
   display: block;
   font-size: 87.5%;
-  color: var(--gray-800);
+  color: var(--text-secondary);
 }
 
 pre code {
