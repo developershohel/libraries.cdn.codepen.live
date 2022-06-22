@@ -11044,7 +11044,7 @@ input[type=button].btn-block {
 }
 
 .flex {
-  display: flex;
+  display: flex !important;
 }
 
 .inline-flex {
@@ -11068,15 +11068,15 @@ input[type=button].btn-block {
 }
 
 .block {
-  display: block;
+  display: block !important;
 }
 
 .inline {
-  display: inline;
+  display: inline !important;
 }
 
 .inline-block {
-  display: inline-block;
+  display: inline-block !important;
 }
 
 .container {

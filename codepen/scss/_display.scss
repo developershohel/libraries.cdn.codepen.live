@@ -1,12 +1,12 @@
 @import url(media.scss);
 .flex {
-    display: flex;
+    display: flex !important;
   }
   .inline-flex {
     display: inline-flex !important;
   }
   .inline-flexbox {
-    display: inline-flexbox!important;
+    display: inline-flexbox !important;
   }
   .grid {
     display: grid!important;
@@ -18,13 +18,13 @@
     display: inline-table!important;
   }
   .block {
-    display: block;
+    display: block !important;
   }
   .inline {
-    display: inline;
+    display: inline !important;
   }
   .inline-block {
-    display: inline-block;
+    display: inline-block !important;
   }
   
   .container {
