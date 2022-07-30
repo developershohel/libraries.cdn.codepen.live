@@ -11564,143 +11564,171 @@ table td {
   background-color: var(--gray-700);
 }
 
-.thead-bg-primary, .thead-bg-primary th {
+.thead-bg-primary,
+.thead-bg-primary th {
   color: var(--text-primary) !important;
   border: 1px solid var(--blue-300) !important;
   background-color: var(--blue-700) !important;
 }
 
-.thead-bg-primary:hover, .thead-bg-primary th:hover {
+.thead-bg-primary:hover,
+.thead-bg-primary th:hover {
   background-color: var(--blue-800) !important;
 }
 
-.tbody-bg-primary, .tbody-bg-primary td {
+.tbody-bg-primary,
+.tbody-bg-primary td {
   color: var(--text-primary) !important;
   border: 1px solid var(--blue-300) !important;
   background-color: var(--blue-400) !important;
 }
 
-.tbody-bg-primary:hover, .tbody-bg-primary td:hover {
+.tbody-bg-primary:hover,
+.tbody-bg-primary td:hover {
   background-color: var(--blue-500) !important;
 }
 
-.thead-bg-secondary, .thead-bg-secondary th {
+.thead-bg-secondary,
+.thead-bg-secondary th {
   color: var(--text-primary) !important;
   border: 1px solid var(--gray-200) !important;
   background-color: var(--gray-600) !important;
 }
 
-.thead-bg-secondary:hover, .thead-bg-secondary th:hover {
+.thead-bg-secondary:hover,
+.thead-bg-secondary th:hover {
   background-color: var(--gray-700) !important;
 }
 
-.tbody-bg-secondary, .tbody-bg-secondary td {
+.tbody-bg-secondary,
+.tbody-bg-secondary td {
   color: var(--text-primary) !important;
   border: 1px solid var(--gray-200) !important;
   background-color: var(--gray-400) !important;
 }
 
-.tbody-bg-secondary:hover, .tbody-bg-secondary td:hover {
+.tbody-bg-secondary:hover,
+.tbody-bg-secondary td:hover {
   background-color: var(--gray-500) !important;
 }
 
-.thead-bg-warning, .thead-bg-warning th {
+.thead-bg-warning,
+.thead-bg-warning th {
   color: var(--text-primary) !important;
   border: 1px solid var(--yellow-200) !important;
   background-color: var(--yellow-500) !important;
 }
 
-.thead-bg-warning:hover, .thead-bg-warning th:hover {
+.thead-bg-warning:hover,
+.thead-bg-warning th:hover {
   background-color: var(--yellow-600) !important;
 }
 
-.tbody-bg-warning, .tbody-bg-warning td {
+.tbody-bg-warning,
+.tbody-bg-warning td {
   color: var(--text-primary) !important;
   border: 1px solid var(--yellow-200) !important;
   background-color: var(--yellow-300) !important;
 }
 
-.tbody-bg-warning:hover, .tbody-bg-warning td:hover {
+.tbody-bg-warning:hover,
+.tbody-bg-warning td:hover {
   background-color: var(--yellow-400) !important;
 }
 
-.thead-bg-success, .thead-bg-success th {
+.thead-bg-success,
+.thead-bg-success th {
   color: var(--text-primary) !important;
   border: 1px solid var(--green-200) !important;
   background-color: var(--green-300) !important;
 }
 
-.thead-bg-success:hover, .thead-bg-success th:hover {
+.thead-bg-success:hover,
+.thead-bg-success th:hover {
   background-color: var(--green-600) !important;
 }
 
-.tbody-bg-success, .tbody-bg-success td {
+.tbody-bg-success,
+.tbody-bg-success td {
   color: var(--text-primary) !important;
   border: 1px solid var(--green-200) !important;
   background-color: var(--green-300) !important;
 }
 
-.tbody-bg-success:hover, .tbody-bg-success td:hover {
+.tbody-bg-success:hover,
+.tbody-bg-success td:hover {
   background-color: var(--green-400) !important;
 }
 
-.thead-bg-info, .thead-bg-info th {
+.thead-bg-info,
+.thead-bg-info th {
   color: var(--text-primary) !important;
   border: 1px solid var(--cyan-200) !important;
   background-color: var(--cyan-300) !important;
 }
 
-.thead-bg-info:hover, .thead-bg-info th:hover {
+.thead-bg-info:hover,
+.thead-bg-info th:hover {
   background-color: var(--cyan-600) !important;
 }
 
-.tbody-bg-info, .tbody-bg-info td {
+.tbody-bg-info,
+.tbody-bg-info td {
   color: var(--text-primary) !important;
   border: 1px solid var(--cyan-200) !important;
   background-color: var(--cyan-300) !important;
 }
 
-.tbody-bg-info:hover, .tbody-bg-info td:hover {
+.tbody-bg-info:hover,
+.tbody-bg-info td:hover {
   background-color: var(--cyan-400) !important;
 }
 
-.thead-bg-danger, .thead-bg-danger th {
+.thead-bg-danger,
+.thead-bg-danger th {
   color: var(--text-primary) !important;
   border: 1px solid var(--red-200) !important;
   background-color: var(--red-600) !important;
 }
 
-.thead-bg-danger:hover, .thead-bg-danger th:hover {
+.thead-bg-danger:hover,
+.thead-bg-danger th:hover {
   background-color: var(--red-700) !important;
 }
 
-.tbody-bg-danger, .tbody-bg-danger td {
+.tbody-bg-danger,
+.tbody-bg-danger td {
   color: var(--text-primary) !important;
   border: 1px solid var(--red-200) !important;
   background-color: var(--red-400) !important;
 }
 
-.tbody-bg-danger:hover, .tbody-bg-danger td:hover {
+.tbody-bg-danger:hover,
+.tbody-bg-danger td:hover {
   background-color: var(--red-500) !important;
 }
 
-.thead-bg-dark, .thead-bg-dark th {
+.thead-bg-dark,
+.thead-bg-dark th {
   color: var(--text-primary) !important;
   border: 1px solid var(--gray-200) !important;
   background-color: var(--gray-800) !important;
 }
 
-.thead-bg-dark:hover, .thead-bg-dark th:hover {
+.thead-bg-dark:hover,
+.thead-bg-dark th:hover {
   background-color: var(--gray-900) !important;
 }
 
-.tbody-bg-dark, .tbody-bg-dark td {
+.tbody-bg-dark,
+.tbody-bg-dark td {
   color: var(--text-primary) !important;
   border: 1px solid var(--gray-200) !important;
   background-color: var(--gray-700) !important;
 }
 
-.tbody-bg-dark:hover, .tbody-bg-dark td:hover {
+.tbody-bg-dark:hover,
+.tbody-bg-dark td:hover {
   background-color: var(--gray-800) !important;
 }
 
